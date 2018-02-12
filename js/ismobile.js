@@ -16,6 +16,6 @@ var isMobile = {
         }
     };
     if (isMobile.any()) {
-        	function(){d=$.dialogTwo();} 
+        	function(){var d=$.dialogTwo();} 
     }else{
     }
