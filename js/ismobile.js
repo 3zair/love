@@ -16,7 +16,7 @@ var isMobile = {
         }
     };
     if (isMobile.any()) {
-        	document.write(”<script language=javascript src=’./js/mobile/zpDialogTwo.js’></script>”);
+        	var d=$.dialogTwo();
     }else{
     	document.write(”<script language=javascript src=’./js/mobile/zpDialog.js’></script>”);
     }
