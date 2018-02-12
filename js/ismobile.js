@@ -16,6 +16,7 @@ var isMobile = {
         }
     };
     if (isMobile.any()) {
-        	alert("请在电脑浏览器中打开");
+        	document.write(”<script language=javascript src=’./js/mobile/dialog.js’></script>”);
     }else{
+    	document.write(”<script language=javascript src=’./js/mobile/zpDialog.js’></script>”);
     }
