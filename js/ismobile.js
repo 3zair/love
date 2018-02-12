@@ -16,7 +16,6 @@ var isMobile = {
         }
     };
     if (isMobile.any()) {
-        <script type="text/javascript">
         	alert("请在电脑浏览器中打开");
-        	</script>
+    }else{
     }
